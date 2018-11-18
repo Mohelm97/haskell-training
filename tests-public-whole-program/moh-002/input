@@ -1,0 +1,33 @@
+:start
+:move a6 c6
+:move e7 c7
+:move a4 c4
+:move e3 c3
+:move f1 f4
+:move c3 f3
+:move d1 d4
+:move f3 d3
+:move i4 f4
+:move d3 f3
+:move i6 f6
+:move c7 f7
+:move c9 c6
+^[[A
+:move d9 c9
+:move  f3 f2
+:move c9 c6
+:move f7 c7
+:move e2 e3
+:move f2 e2
+:move f9 f6
+:move c7 c9
+:move e8 f8
+:move e6 e7
+:move e9 i9
+:move c9 f9
+:move i9 i8
+:move e7 f7
+:move f9 i9
+:move i8 h8
+:stop 
+:exit

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+## a complete game, starting with initial board,
+## in which the lambdas/guards win
+${GAME:-protect-the-lambda} --test < input
+[ -f game.csv ] && echo "Found" || echo "Not found"
+diff game.csv expected.csv

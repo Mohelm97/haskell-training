@@ -1,0 +1,411 @@
+moh97@moh97-Inspiron-7577:~/Uni/FP/ae2/for-students$ cabal run
+Preprocessing library for protect-the-lambda-0.1.0.0..
+Building library for protect-the-lambda-0.1.0.0..
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing executable 'protect-the-lambda' for protect-the-lambda-0.1.0.0..
+Building executable 'protect-the-lambda' for protect-the-lambda-0.1.0.0..
+Running protect-the-lambda...
+tafl> :start
+Starting Game.
+
+9 |       O O O      
+8 |         O        
+7 |         G        
+6 | O       G       O
+5 | O O G G L G G O O
+4 | O       G       O
+3 |         G        
+2 |         O        
+1 |       O O O      
+  ___________________
+    A B C D E F G H I
+tafl game O> :move a6 c6
+Move Successful
+
+9 |       O O O      
+8 |         O        
+7 |         G        
+6 |     O   G       O
+5 | O O G G L G G O O
+4 | O       G       O
+3 |         G        
+2 |         O        
+1 |       O O O      
+  ___________________
+    A B C D E F G H I
+tafl game L> :move e7 c7
+Move Successful
+
+9 |       O O O      
+8 |         O        
+7 |     G            
+6 |         G       O
+5 | O O G G L G G O O
+4 | O       G       O
+3 |         G        
+2 |         O        
+1 |       O O O      
+  ___________________
+    A B C D E F G H I
+tafl game O> :move a4 c4
+Move Successful
+
+9 |       O O O      
+8 |         O        
+7 |     G            
+6 |         G       O
+5 | O O G G L G G O O
+4 |     O   G       O
+3 |         G        
+2 |         O        
+1 |       O O O      
+  ___________________
+    A B C D E F G H I
+tafl game L> :move e3 c3
+Move Successful
+
+9 |       O O O      
+8 |         O        
+7 |     G            
+6 |         G       O
+5 | O O G G L G G O O
+4 |         G       O
+3 |     G            
+2 |         O        
+1 |       O O O      
+  ___________________
+    A B C D E F G H I
+tafl game O> :move f1 f4
+Move Successful
+
+9 |       O O O      
+8 |         O        
+7 |     G            
+6 |         G       O
+5 | O O G G L G G O O
+4 |         G O     O
+3 |     G            
+2 |         O        
+1 |       O O        
+  ___________________
+    A B C D E F G H I
+tafl game L> :move c3 f3 
+Move Successful
+
+9 |       O O O      
+8 |         O        
+7 |     G            
+6 |         G       O
+5 | O O G G L G G O O
+4 |         G       O
+3 |           G      
+2 |         O        
+1 |       O O        
+  ___________________
+    A B C D E F G H I
+tafl game O> :move d1 d4
+Move Successful
+
+9 |       O O O      
+8 |         O        
+7 |     G            
+6 |         G       O
+5 | O O G G L G G O O
+4 |       O G       O
+3 |           G      
+2 |         O        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game L> :move f3 d3 
+Move Successful
+
+9 |       O O O      
+8 |         O        
+7 |     G            
+6 |         G       O
+5 | O O G G L G G O O
+4 |         G       O
+3 |       G          
+2 |         O        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game O> :move i4 f4
+Move Successful
+
+9 |       O O O      
+8 |         O        
+7 |     G            
+6 |         G       O
+5 | O O G G L G G O O
+4 |         G O      
+3 |       G          
+2 |         O        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game L> :move d3 f3
+Move Successful
+
+9 |       O O O      
+8 |         O        
+7 |     G            
+6 |         G       O
+5 | O O G G L G G O O
+4 |         G        
+3 |           G      
+2 |         O        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game O> :move i6 f6
+Move Successful
+
+9 |       O O O      
+8 |         O        
+7 |     G            
+6 |         G O      
+5 | O O G G L G G O O
+4 |         G        
+3 |           G      
+2 |         O        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game L> :move c7 f7
+Move Successful
+
+9 |       O O O      
+8 |         O        
+7 |           G      
+6 |         G        
+5 | O O G G L G G O O
+4 |         G        
+3 |           G      
+2 |         O        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game O> :move c9 c6
+Invalid Move!
+tafl game O> ^[[A
+The entered command was not recognised
+tafl game O> :move d9 c9
+Move Successful
+
+9 |     O   O O      
+8 |         O        
+7 |           G      
+6 |         G        
+5 | O O G G L G G O O
+4 |         G        
+3 |           G      
+2 |         O        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game L> :move  f3 f2
+Move Successful
+
+9 |     O   O O      
+8 |         O        
+7 |           G      
+6 |         G        
+5 | O O G G L G G O O
+4 |         G        
+3 |                  
+2 |         O G      
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game O> :move c9 c6
+Move Successful
+
+9 |         O O      
+8 |         O        
+7 |           G      
+6 |     O   G        
+5 | O O G G L G G O O
+4 |         G        
+3 |                  
+2 |         O G      
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game L> :move f7 c7
+Move Successful
+
+9 |         O O      
+8 |         O        
+7 |     G            
+6 |         G        
+5 | O O G G L G G O O
+4 |         G        
+3 |                  
+2 |         O G      
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game O> :move e2 e3
+Move Successful
+
+9 |         O O      
+8 |         O        
+7 |     G            
+6 |         G        
+5 | O O G G L G G O O
+4 |         G        
+3 |         O        
+2 |           G      
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game L> :move f2 e2
+Move Successful
+
+9 |         O O      
+8 |         O        
+7 |     G            
+6 |         G        
+5 | O O G G L G G O O
+4 |         G        
+3 |                  
+2 |         G        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game O> :move f9 f6
+Move Successful
+
+9 |         O        
+8 |         O        
+7 |     G            
+6 |         G O      
+5 | O O G G L G G O O
+4 |         G        
+3 |                  
+2 |         G        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game L> :move c7 c9
+Move Successful
+
+9 |     G   O        
+8 |         O        
+7 |                  
+6 |         G O      
+5 | O O G G L G G O O
+4 |         G        
+3 |                  
+2 |         G        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game O> :move e8 f8 
+Move Successful
+
+9 |     G   O        
+8 |           O      
+7 |                  
+6 |         G O      
+5 | O O G G L G G O O
+4 |         G        
+3 |                  
+2 |         G        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game L> :move e6 e7
+Move Successful
+
+9 |     G   O        
+8 |           O      
+7 |         G        
+6 |           O      
+5 | O O G G L G G O O
+4 |         G        
+3 |                  
+2 |         G        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game O> :move e9 i9
+Move Successful
+
+9 |     G           O
+8 |           O      
+7 |         G        
+6 |           O      
+5 | O O G G L G G O O
+4 |         G        
+3 |                  
+2 |         G        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game L> :move c9 f9
+Move Successful
+
+9 |           G     O
+8 |           O      
+7 |         G        
+6 |           O      
+5 | O O G G L G G O O
+4 |         G        
+3 |                  
+2 |         G        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game O> :move i9 i8
+Move Successful
+
+9 |           G      
+8 |           O     O
+7 |         G        
+6 |           O      
+5 | O O G G L G G O O
+4 |         G        
+3 |                  
+2 |         G        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game L> :move e7 f7
+Move Successful
+
+9 |           G      
+8 |                 O
+7 |           G      
+6 |                  
+5 | O O G G L G G O O
+4 |         G        
+3 |                  
+2 |         G        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+tafl game O> :move f9 i9
+Invalid Move!
+tafl game O> :move i8 h8
+Move Successful
+
+9 |           G      
+8 |               O  
+7 |           G      
+6 |                  
+5 | O O G G L G G O O
+4 |         G        
+3 |                  
+2 |         G        
+1 |         O        
+  ___________________
+    A B C D E F G H I
+Lambdas Win
+tafl> :stop 
+Stopping Game.
+tafl> :exit
+Good Bye!
+
