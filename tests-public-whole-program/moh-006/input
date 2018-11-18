@@ -1,0 +1,6 @@
+:start
+:save game/mygame@game.csv
+:load file.file
+:load input
+:stop
+:exit
